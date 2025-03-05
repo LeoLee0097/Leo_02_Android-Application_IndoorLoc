@@ -43,6 +43,10 @@ ssh ubuntu@[Ur IP Address]
 The program on the server is running on (listening to) port 5001.
 
 ## Contributors
-+ Kyeong Soo(Joseph) Kim - Team Leader
-+ Sihao (Leo) Li - Author and maintainer, until ``Beta 1.2.5`` version
++ Kyeong Soo(Joseph) Kim - Team Leader & original developer
++ Sihao (Leo) Li - Developer and maintainer until ``Beta 1.2.5`` version
 + Zhe (Tim) Tang - Reporter of bugs and suggestions
+
+## Citation
+```bibtex
+```
