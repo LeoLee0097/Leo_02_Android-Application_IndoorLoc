@@ -493,7 +493,7 @@ public class MainActivity extends AppCompatActivity {
     //    private int HttpUrlConnectionGet(AP_Record ap, int nonce) {
     //        HttpURLConnection connection = null;
     //        try {
-    //            String url = "http://43.136.95.187:5001/msg?";
+    //            String url = "[Ur IP Address]:5001/msg?";
     //            connection = (HttpURLConnection) makeurl(url, ap, nonce).openConnection();
     //            connection.setConnectTimeout(3000);
     //            connection.setReadTimeout(3000);
@@ -522,7 +522,7 @@ public class MainActivity extends AppCompatActivity {
     //    public int HttpClean() {
     //        HttpURLConnection connection = null;
     //        try {
-    //            String url = "http://43.136.95.187:5001/order?code=666&";
+    //            String url = "[Ur IP Address]:5001/order?code=666&";
     //            URL urld = new URL(url);
     //            connection = (HttpURLConnection) urld.openConnection();
     //            connection.setConnectTimeout(5000);
