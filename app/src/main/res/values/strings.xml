@@ -1,15 +1,3 @@
 <resources>
     <string name="app_name">HNRL WiFi RSSI Scanner</string>
-    <string name="hnrl_wifi_sniffer">HNRL WIFI Sniffer</string>
-    <string name="imu_and_local_version">IMU and Local Version</string>
-    <string name="console">Console:</string>
-    <string name="scan">SCAN</string>
-    <string name="save">SAVE</string>
-    <string name="local">Local</string>
-    <string name="clear_data">Clear Data</string>
-    <string name="kill_all">Kill All</string>
-    <string name="version">Version 2.0</string>
-    <string name="saved">SAVED</string>
-    <string name="scaned">SCAN</string>
-    <string name="aps">APs</string>
 </resources>

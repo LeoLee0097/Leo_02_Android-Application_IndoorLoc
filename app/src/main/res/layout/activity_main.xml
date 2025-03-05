@@ -19,8 +19,8 @@
         android:background="#FFFFFF"
         android:padding="5dp"
         android:scrollbars="vertical"
-        android:text="@string/console"
-        android:textColor="@color/darkslategrey"
+        android:text="Console:"
+        android:textColor="#37474F"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/scan"
+        android:text="SCAN"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -57,7 +57,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/save"
+        android:text="SAVE"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -68,13 +68,13 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="@string/local"
+        android:layout_marginEnd="8dp"
+        android:text="Upload"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/divider" />
 
     <!--    <LinearLayout-->
@@ -91,7 +91,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
-        android:text="@string/clear_data"
+        android:text="Empty Local Data"
         android:textColor="#FFFFFF"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -105,7 +105,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginBottom="10dp"
-        android:text="@string/kill_all"
+        android:text="Kill All"
+        android:textSize="10sp"
         android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button5" />
@@ -114,7 +115,8 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/version"
+        android:text="Beta Version\n1.2.5"
+        android:textSize="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -134,8 +136,8 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Fingerprint Data Info"
             android:backgroundTint="#aaFFFFFF"
-            android:text="Fingerprint Info"
             android:textSize="16sp" />
 
     </TableRow>
@@ -160,7 +162,7 @@
             android:layout_width="54dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/saved"
+            android:text=" SAVED"
             android:textColor="#000000" />
 
         <TextView
@@ -177,7 +179,7 @@
             android:layout_width="54dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/scaned"
+            android:text=" SCANs"
             android:textColor="#000000" />
 
         <TextView
@@ -194,7 +196,7 @@
             android:layout_width="54dp"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="@string/aps"
+            android:text=" APs"
             android:textColor="#000000" />
     </TableRow>
 
@@ -220,7 +222,7 @@
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#aaFFFFFF"
                 android:gravity="center"
                 android:hint="X"
                 android:inputType="numberDecimal"
@@ -237,7 +239,7 @@
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#aaFFFFFF"
                 android:gravity="center"
                 android:hint="Y"
                 android:inputType="numberDecimal"
@@ -254,7 +256,7 @@
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#aaFFFFFF"
                 android:gravity="center"
                 android:hint="Loc"
                 android:inputType="text"
@@ -284,9 +286,9 @@
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#aaFFFFFF"
                 android:gravity="center"
-                android:hint="B"
+                android:hint="Building"
                 android:inputType="text"
                 android:text="0" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -301,9 +303,9 @@
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#aaFFFFFF"
                 android:gravity="center"
-                android:hint="F"
+                android:hint="Floor"
                 android:inputType="number"
                 android:text="0" />
 
@@ -319,9 +321,9 @@
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
                 android:background="#FFFFFF"
-                android:backgroundTint="#FFFFFF"
+                android:backgroundTint="#aaFFFFFF"
                 android:gravity="center"
-                android:hint="R"
+                android:hint="Room"
                 android:inputType="text"
                 android:text="0" />
         </com.google.android.material.textfield.TextInputLayout>
