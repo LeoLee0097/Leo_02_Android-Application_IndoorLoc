@@ -32,7 +32,7 @@ My ECS server is located in Tencent Cloud. The IP address is
 ```
 The username is
 ```
-ubuntu
+[e.g., ubuntu]
 ```
 The password is
 ```
